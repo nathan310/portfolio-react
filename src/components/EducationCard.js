@@ -16,7 +16,7 @@ export default function EducationCard() {
 
               <details class="px-6 py-4">
                 <summary class="font-bold text-2xl text-gray-800">
-                  Kwagei Group
+                 Starz University
                 </summary>
                 <p>
                   Epcot is a theme park at Walt Disney World Resort featuring

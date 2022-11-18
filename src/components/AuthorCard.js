@@ -21,23 +21,20 @@ export default function AuthorCard({setIsActive, isActive}) {
       >
         <div id="avatar" class="flex justify-center py-2">
           <img
-            class="w-40"
-            src="https://api.multiavatar.com/JB.svg "
-            alt="JB image"
+            class="w-40"src="https://api.multiavatar.com/pmnj.svg " 
+            alt="Marc"
           />
         </div>
         <div id="content" class="prose lg:prose-xl px-2">
           <h1 class="text-center text-gray-800 text-4xl capitalize font-medium">
-            Carlos S. Nah
+           Phili Marcus Nathan Jr.
           </h1>
           <small class="text-center block text-md text-gray-800">
-            Writer, Teacher &amp; Software Engineer
+            Student, Designer &amp; Software Engineer
           </small>
           <p class="text-justify text-lg text-gray-800">
-            Hi! I am the guy who doesn't know how to repair a computer. Yeah, I
-            am not your typical IT guy who does all the techinal hardware
-            chores. I write programs using different syntaxes which are later
-            compiled to 0s and 1s.
+            Hi! I am a student who is learning computer progarm and wish to do better as I containue my studies. currently studing at the Starz University.
+            Thanks for viewing my work.
           </p>
 
           <div id="hero-nav" className="p-6 max-w-full mx-auto">

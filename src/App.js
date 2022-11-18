@@ -21,10 +21,10 @@ function App() {
         <main>
           <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
 
-            <AuthorCard  {...{isActive, setIsActive}}/>
+            <AuthorCard  {...{ isActive, setIsActive }} />
 
             {
-              isActive.name === "work" ? 
+              isActive.name === "work" ?
                 <WorkCard /> : isActive.name === "education" ? <EducationCard /> : <HobbiesCard />
             }
 

@@ -3,8 +3,11 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
 import "./index.css";
 import App from "./App";
-import reportWebVitals from "./reportWebVitals";
 import Projects from "./routes/projects";
+import Blog from "./routes/blog";
+import Contact from "./routes/contact";
+import reportWebVitals from "./reportWebVitals";
+
 
 const router = createBrowserRouter([
   {
@@ -17,11 +20,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/blog",
-    element: <App />,
+    element: <Blog />,
   },
   {
     path: "/contact",
-    element: <App />,
+    element: <Contact />,
   },
 ]);
 

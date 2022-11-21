@@ -92,7 +92,7 @@ export default function Navbar() {
                 <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
                   {/* <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" --> */}
                   <Link
-                    to={"/projects"}
+                    to="/projects"
                     class="
                       inline-flex
                       items-center
@@ -106,8 +106,8 @@ export default function Navbar() {
                   >
                     Projects
                   </Link>
-                  <a
-                    href="project"
+                  <Link
+                    to="/blog"
                     class="
                       inline-flex
                       items-center
@@ -119,11 +119,12 @@ export default function Navbar() {
                       text-gray-500
                       hover:border-gray-300 hover:text-gray-700
                     "
-                  >
-                    Blog
-                  </a>
-                  <a
-                    href="#"
+                    >
+                      Blog
+                    </Link>
+
+                  <Link
+                    to="/contact"
                     class="
                       inline-flex
                       items-center
@@ -137,9 +138,11 @@ export default function Navbar() {
                     "
                   >
                     Contact
-                  </a>
+                  </Link>
+                  
                 </div>
               </div>
+              
               <div
                 class="
                   absolute
@@ -159,7 +162,7 @@ export default function Navbar() {
             <div class="space-y-1 pt-2 pb-4">
               {/* <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" --> */}
               <Link
-                to={"/projects"}
+                to="/projects"
                 class="
                   block
                   border-l-4 border-indigo-500
@@ -174,8 +177,8 @@ export default function Navbar() {
               >
                 Projects
               </Link>
-              <a
-                href="#"
+              <Link
+                to="/blog"
                 class="
                   block
                   border-l-4 border-transparent
@@ -189,9 +192,9 @@ export default function Navbar() {
                 "
               >
                 Blog
-              </a>
-              <a
-                href="#"
+              </Link>
+              <Link
+                to="/contact"
                 class="
                   block
                   border-l-4 border-transparent
@@ -205,7 +208,7 @@ export default function Navbar() {
                 "
               >
                 Contact
-              </a>
+                </Link>
             </div>
           </div>
         </nav>

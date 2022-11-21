@@ -21,7 +21,7 @@ export default function AuthorCard({setIsActive, isActive}) {
       >
         <div id="avatar" class="flex justify-center py-2">
           <img
-            class="w-40"src="https://api.multiavatar.com/pmnj.svg " 
+            class="w-40"src="https://scontent-lhr8-2.xx.fbcdn.net/v/t39.30808-6/282196470_2930641300568536_1075438885907476308_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=174925&_nc_ohc=obWSVkYRoFwAX_bIXoZ&_nc_zt=23&_nc_ht=scontent-lhr8-2.xx&oh=00_AfDaBineWy-gyv7D2yxj4JXltcLp1WRxnpHOwBkhYICTgg&oe=6380C196 " 
             alt="Marc"
           />
         </div>

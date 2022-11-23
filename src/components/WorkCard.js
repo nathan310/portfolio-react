@@ -18,9 +18,8 @@ export default function WorkCard() {
                   H-P Mutil Line
                 </summary>
                 <p>
-                  Epcot is a theme park at Walt Disney World Resort featuring
-                  exciting attractions, international pavilions, award-winning
-                  fireworks and seasonal special events.
+                  Work at H-P Mutil Line as the IT Manager, Our company is a Super Garrie that produce different types of Supper 
+                  Garrie with good nutrion prodct for human.   
                 </p>
               </details>
 

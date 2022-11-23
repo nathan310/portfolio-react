@@ -1,7 +1,26 @@
-import React from "react";
+import,{useEffect, useState} React from "react";
+import { useEffect, useState } from "react";
+import { collection, doc, documentId, getDocs } from "firebase/firestore";
 import Navbar from "../../components/Navbar";
 
 export default function blog(){
+  const [post, setPost] = useState([])
+
+  useEffect (() => (
+    return async() =>(
+      const querySnapshot = await getDocs(collection(Firestoredb, "post"));
+      setPost(
+        qureySnapshot.dos.map((doc)) => ({
+          id: documentId,
+          ...doc.date(),
+        })
+      )
+    querySnapshot.forEach((doc) => {
+      console.log(`${doc.id} => ${doc.data()}`);
+    });
+
+    )
+  ))
     return(
         <>
         <Navbar/>
